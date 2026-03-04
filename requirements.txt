@@ -1,0 +1,2 @@
+# Add any Python dependencies here
+# frappe is already installed as the base framework
