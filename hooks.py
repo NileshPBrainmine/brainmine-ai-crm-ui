@@ -242,8 +242,8 @@
 # # 	"Logging DocType Name": 30  # days to retain logs
 # # }
 
-app_name = "ui_theme"
-app_title = "UI Theme"
+app_name = "brainmine_ai_crm_ui"
+app_title = "Brainmine AI CRM UI"
 app_publisher = "Darshana Patil"
 app_description = "Custom UI theme and interface enhancements."
 app_email = "darshanap01@brainmine.ai"
@@ -254,7 +254,7 @@ app_license = "mit"
 # ---------------------------------------------------------
 
 # App color (shown in Desk app list if needed)
-app_color = "#1F2937"   # You can change this to your brand color
+app_color = "#1F2937"
 
 
 # ---------------------------------------------------------
@@ -262,26 +262,18 @@ app_color = "#1F2937"   # You can change this to your brand color
 # ---------------------------------------------------------
 
 # Global CSS for Desk
-# app_include_css = [
-#     "/assets/ui_theme/css/custom_navbar.css",
-#     "/assets/ui_theme/css/home_default.css",
-#     "/assets/ui_theme/css/home_sales_user.css",
-#     "/assets/ui_theme/css/login_theme.css"
-# ]
-
-# Global CSS for Desk
 app_include_css = [
-    "/assets/ui_theme/css/home_default.css",
-    "/assets/ui_theme/css/login_theme.css",
-    "/assets/ui_theme/css/home_sales_user.css",
+    "/assets/brainmine_ai_crm_ui/css/home_default.css",
+    "/assets/brainmine_ai_crm_ui/css/login_theme.css",
+    "/assets/brainmine_ai_crm_ui/css/home_sales_user.css",
     # Keep navbar overrides last so they win over Frappe/other theme CSS
-    "/assets/ui_theme/css/custom_navbar.css?v=20260219_1",
+    "/assets/brainmine_ai_crm_ui/css/custom_navbar.css?v=20260219_1",
 ]
 
 # Global JS for Desk
 app_include_js = [
-    "/assets/ui_theme/js/navbar_brand.js?v=20260219_1",
-    "/assets/ui_theme/js/hide_help_menu.js?v=20260219_1",
+    "/assets/brainmine_ai_crm_ui/js/navbar_brand.js?v=20260219_1",
+    "/assets/brainmine_ai_crm_ui/js/hide_help_menu.js?v=20260219_1",
 ]
 
 

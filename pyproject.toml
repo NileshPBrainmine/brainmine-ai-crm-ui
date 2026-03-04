@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "brainmine_ai_crm_ui"
+version = "0.0.1"
+description = "Custom UI theme and interface enhancements."
+authors = [
+    {name = "Darshana Patil", email = "darshanap01@brainmine.ai"}
+]
+license = {text = "mit"}
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]

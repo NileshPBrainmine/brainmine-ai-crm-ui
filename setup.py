@@ -4,7 +4,7 @@ with open("requirements.txt") as f:
     install_requires = f.read().strip().split("\n")
 
 setup(
-    name="ui_theme",
+    name="brainmine_ai_crm_ui",
     version="0.0.1",
     description="Custom UI theme and interface enhancements.",
     author="Darshana Patil",
